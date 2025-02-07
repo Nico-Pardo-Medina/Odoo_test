@@ -13,7 +13,8 @@
                         <field name="user_id"/>
                         <field name="create_date" readonly="1"/>
                     </group>
-                    <button name="action_mark_resolved" type="object" string="Marcar como resuelto" class="oe_highlight" attrs="{'invisible': [('state', '=', 'resolved')]}"/>
+                    <button name="action_mark_resolved" type="object" string="Marcar como &quot;resuelto&quot;" class="oe_highlight" attrs="{'invisible': [('state', '!=', 'in_progress')]}"/>
+                    <button name="action_mark_resolved" type="object" string="Marcar como &quot;en progreso&quot;" class="oe_highlight" attrs="{'invisible': [('state', '!=', 'new')]}"/>
                 </sheet>
             </form>
         </field>
