@@ -9,7 +9,7 @@ class HelpdeskTicket(models.Model):
         ('new', 'nuevo'),
         ('in_progress', 'en progreso'),
         ('resolved', 'resuelto')
-    ], string='Estado', default='new', readonly=True)
+    ], string='Estado', default='new')
     description = fields.Text(string='Descripción del problema')
     create_date = fields.Datetime(string='Fecha de creación', default=fields.Datetime.now, readonly=True)
     user_id = fields.Many2one('res.users', string='Usuario asignado')
