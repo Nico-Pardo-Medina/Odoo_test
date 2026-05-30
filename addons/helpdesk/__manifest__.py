@@ -11,7 +11,4 @@
     ],
     'installable': True,
     'application': True,
-    'demo': [
-        'demo/demo_data.xml',
-    ],
 }
