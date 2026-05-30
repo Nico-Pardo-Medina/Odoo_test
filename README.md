@@ -1,3 +1,9 @@
+# Odoo Helpdesk Module
+
+A custom Odoo 16 module that adds a support ticket management system. Tickets track a client, assigned user, status, and description. A smart button advances each ticket through a `new → in progress → resolved` state machine. Includes a Docker Compose setup so the module can be run locally with a single command.
+
+---
+
 # Módulo de gestión de tickets de soporte
 
 Este módulo permite gestionar tickets de soporte en Odoo. Se pueden crear tickets con los siguientes campos:
@@ -22,11 +28,11 @@ Se puede clonar también con alguno de estos comandos:
 
 - Si tienes SSH:
 
-`git clone https://github.com/Nico-Pardo-Medina/Odoo_test.git`
+`git clone https://github.com/Nico-Pardo-Medina/odoo-helpdesk-module.git`
   
 - Si no:
 
-`git clone git@github.com:Nico-Pardo-Medina/Odoo_test.git`
+`git clone git@github.com:Nico-Pardo-Medina/odoo-helpdesk-module.git`
 
 ### **3. Navegar a la carpeta del repositorio**
 Se puede hacer con este comando:
